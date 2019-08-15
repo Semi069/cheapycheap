@@ -1,0 +1,295 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Info Tickers</title>
+
+<link href="http://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
+
+<style>
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+@keyframes ticker {
+
+                0%   {margin-top: 0}
+
+                25%  {margin-top: -30px}
+
+                50%  {margin-top: -60px}
+
+                75%  {margin-top: -90px}
+
+                100% {margin-top: 0}
+
+}
+
+ 
+
+body { background: #333; width: 100%; height: 100% }
+
+ 
+
+.news {
+
+  box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4), 0 5px 10px rgba(0,0,0,0.5);
+
+  width: 650px;
+
+  height: 30px;
+
+  margin: 20px auto;
+
+  overflow: hidden;
+
+  border-radius: 4px;
+
+  padding: 3px;
+
+  -webkit-user-select: none
+
+}
+
+ 
+
+.news span {
+
+  float: left;
+
+  color: #fff;
+
+  padding: 6px;
+
+  position: relative;
+
+  top: 1%;
+
+  border-radius: 4px;
+
+  box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4);
+
+  font: 16px 'Raleway', Helvetica, Arial, sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+
+  -webkit-user-select: none;
+
+  cursor: pointer
+
+}
+
+ 
+
+.news ul {
+
+  float: left;
+
+  padding-left: 20px;
+
+  animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;
+
+  -webkit-user-select: none
+
+}
+
+ 
+
+.news ul li {line-height: 30px; list-style: none }
+
+ 
+
+.news ul li a {
+
+  color: #fff;
+
+  text-decoration: none;
+
+  font: 14px 'Raleway',Helvetica, Arial, sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+
+  -webkit-user-select: none
+
+}
+
+ 
+
+.news ul:hover { animation-play-state: paused }
+
+.news span:hover+ul { animation-play-state: paused }
+
+ 
+
+/* OTHER COLORS */
+
+.blue { background: #347fd0 }
+
+.blue span { background: #2c66be }
+
+.red { background: #d23435 }
+
+.red span { background: #c22b2c }
+
+.green { background: #699B67 }
+
+.green span { background: #547d52 }
+
+.magenta { background: #b63ace }
+
+.magenta span { background: #842696 }
+
+</style>
+
+</head>
+
+ 
+
+<body>
+
+<div id="css-script-menu">
+
+  <div class="css-script-center">
+
+   
+
+    <div class="css-script-ads"><script type="text/javascript"><!--
+
+google_ad_client = "ca-pub-2783044520727903";
+
+/* CSSScript Demo Page */
+
+google_ad_slot = "3025259193";
+
+google_ad_width = 728;
+
+google_ad_height = 90;
+
+//-->
+
+</script>
+
+      <script type="text/javascript"
+
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+
+</script></div>
+
+    <div class="css-script-clear"></div>
+
+  </div>
+
+</div>
+
+<h1 style="margin:150px auto 50px auto; text-align:center; color:#fff">Info Ticker</h1>
+
+<div class="news red">
+
+                <span>Verkehrsmittel</span>
+
+                <ul>
+
+                               <li><a href="#">Flughafentransfer kostet zwischen 8-10€ </li>
+
+                               <li><a href="#">Die Einzelfahrkarte kostet etwa 2€</a></li>
+
+                               <li><a href="#">Eine Tageskarte kostet  etwa 7€</a></li>
+
+                               <li><a href="#">Die Durschnittstemperatur im Reisemonat liegt bei 24 Grad</a></li>
+
+       
+
+                </ul>
+
+</div>
+
+ 
+
+<div class="news blue">
+
+                <span>Wissenswertes</span>
+
+                <ul>
+
+                               <li><a href="#">Zählt zu den führenden Modemetropole</li>
+
+                               <li><a href="#">Mehr als 5.81 Millionen Besucher im Jahr</a></li>
+
+                               <li><a href="#">Über 1.3 Millionen Einwohner</a></li>
+
+                               <li><a href="#">Die Währung ist Euro</a></li>
+
+                </ul>
+
+</div>
+
+ 
+
+<div class="news green">
+
+                <span>Sehenswürdigkeiten</span>
+
+                <ul>
+
+                               <li><a href="#">Text 1 - Lorem ipsum </li>
+
+                               <li><a href="#">Text 2 - Sed hendrerit</a></li>
+
+                               <li><a href="#">Text 3 - Phasellus nec</a></li>
+
+                               <li><a href="#">Text 4 - Sed id elit</a></li>
+
+      
+
+                </ul>
+
+</div>
+
+ 
+
+<div class="news magenta">
+
+                <span>Temperatur  </span>
+
+                <ul>
+
+                               <li><a href="#">Aktuell beträgt die Temperatur 24 Grad</li>
+
+                               <li><a href="#">Zur Reisezeit wird die Temperatur wahrscheinlich bei 25 Grad liegen</a></li>
+
+                               <li><a href="#">Der heisseste Monat mit 32 Grad ist der August.</a></li>
+
+                               <li><a href="#">Der kälteste Monat mit -4 Grad ist der Januar</a></li>
+
+                </ul>
+
+</div><script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ 
+
+  ga('create', 'UA-46156385-1', 'cssscript.com');
+
+  ga('send', 'pageview');
+
+ 
+
+</script>
+
+</body>
+
+</html>
